@@ -104,6 +104,17 @@ namespace THEONEPIECEISREAL
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            casuta[1, 1].Text = "";
+            casuta[1, 2].Text = "";
+            casuta[1, 3].Text = "";
+            casuta[2, 1].Text = "";
+            casuta[2, 2].Text = "";
+            casuta[2, 3].Text = "";
+            casuta[3, 1].Text = "";
+            casuta[3, 2].Text = "";
+            casuta[3, 3].Text = "";
+            timer1.Enabled = true;
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
